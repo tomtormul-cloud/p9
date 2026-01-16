@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap" rel="stylesheet">
+    <title>setembre</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-size: 4px;
+      }
+
+      p,
+      h1 {
+        font-family: 'Lexend Zetta', sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      h1 {
+        font-size: 15em;
+        font-weight: 900;
+      }
+
+      p {
+        font-size: 8em;
+      }
+
+      .dies_semana {
+        display: flex;
+        font-size: 3.5em;
+        font-weight: 300;
+        justify-content: right;
+        padding: 0 2em 1em 0;
+      }
+
+      .mes_anterior,
+      .mes_posterior {
+        padding: 0 1em 0 0;
+        font-weight: 600;
+        color: darkgrey;
+      }
+
+      .mes_actual {
+        padding: 0 1em 0 0;
+        font-weight: 800;
+      }
+
+      .container {
+        display: grid;
+        width: 100vw;
+        height: 100vh;
+        gap: 2em;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: 4fr auto repeat(6, 1fr);
+        justify-content: center;
+        align-items: center;
+      }
+
+      p {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+      }
+
+      #nom_mes {
+        display: flex;
+        justify-content: right;
+        grid-column: 1/8;
+      }
+    </style>
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1 id="nom_mes">setembre'26</h1>
+    <!-- noms dies setmana -->
+    <p class="dies_semana">dill.</p>
+    <p class="dies_semana">dim.</p>
+    <p class="dies_semana">dic.</p>
+    <p class="dies_semana">dij.</p>
+    <p class="dies_semana">div.</p>
+    <p class="dies_semana">dis.</p>
+    <p class="dies_semana">diu.</p>
+    <!-- mes anterior -->
+    <p class="mes_anterior">31</p>
+    <!-- mes actual -->
+     <p class="mes_actual">1</p>
+     <p class="mes_actual">2</p>
+     <p class="mes_actual">3</p>
+     <p class="mes_actual">4</p>
+     <p class="mes_actual">5</p>
+     <p class="mes_actual">6</p>
+     <p class="mes_actual">7</p>
+     <p class="mes_actual">8</p>
+     <p class="mes_actual">9</p>
+     <p class="mes_actual">10</p>
+     <p class="mes_actual">11</p>
+     <p class="mes_actual">12</p>
+     <p class="mes_actual">13</p>
+     <p class="mes_actual">14</p>
+     <p class="mes_actual">15</p>
+     <p class="mes_actual">16</p>
+     <p class="mes_actual">17</p>
+     <p class="mes_actual">18</p>
+     <p class="mes_actual">19</p>
+     <p class="mes_actual">20</p>
+     <p class="mes_actual">21</p>
+     <p class="mes_actual">22</p>
+     <p class="mes_actual">23</p>
+     <p class="mes_actual">24</p>
+     <p class="mes_actual">25</p>
+     <p class="mes_actual">26</p>
+     <p class="mes_actual">27</p>
+     <p class="mes_actual">28</p>
+     <p class="mes_actual">29</p>
+     <p class="mes_actual">30</p>
+    <!-- mes posterior -->
+    <p class="mes_posterior">1</p>
+    <p class="mes_posterior">2</p>
+    <p class="mes_posterior">3</p>
+    <p class="mes_posterior">4</p>
+</div>
+</body>
+</html>
